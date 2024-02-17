@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.logo {
+    width: 20%;
+    margin: 30px;
+}
+
+h1 {
+   font-size: 1.8rem; 
+   color: hsl(0, 0%, 59%);
+   font-weight: 300;
+   margin-bottom: 20px;
+}
+span {
+    font-weight: 700;   
+    color: black;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+input {
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid hsl(223, 100%, 88%);
+}
+
+input::placeholder {
+    color:hsl(223, 100%, 88%)
+}
+
+button {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: #4f7df3;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.illustration img{
+    width: 80%;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.icons {
+    width: 40px;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+    .logo {
+        width: 5%;
+        margin: 50px;
+    }
+
+    form {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    input{
+        width: 40%;
+    }
+
+    button {
+        width: 15%;
+        margin-top: 60PX;
+    }
+
+    .illustration img{
+        width: 60%;
+    }
+    
+}
+
+
+
